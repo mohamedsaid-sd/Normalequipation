@@ -1,0 +1,111 @@
+body{
+	background: url('../images/backgrounds/bg.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #000;
+	width: 100%;
+/*	padding: 5px;
+	margin: 5px;*/
+	overflow-x: hidden;
+}
+
+.custom-image{
+	width: 100%;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+/******************************************* Section Welcome**************************************/
+#welcome{
+	/*background-color: red;*/
+	padding: 10px;
+}
+
+#miner{
+	position: relative;
+	top: -100px;
+	width: 100%;
+	height: 700px;
+}
+
+#gallary{
+	position: relative;
+	width: 130px;
+	top: 60px;
+	left: 200px;
+}
+
+#arrow{
+	position: relative;
+	width: 130px;
+	top: 200px;
+	left: 220px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+
+.cube-container {
+  perspective: 1000px;
+  position: absolute;
+  top: 250px;
+  right: 100px;
+  left: 100px;
+}
+
+.cube {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg);
+  animation: rotate 10s infinite linear;
+}
+
+.face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #000;
+  border: 2px solid #333;
+}
+
+.face img {
+  width: 100%;
+  height: 100%;
+}
+
+.front  { transform: rotateY(  0deg) translateZ(100px); }
+.back   { transform: rotateY(180deg) translateZ(100px); }
+.left   { transform: rotateY(-90deg) translateZ(100px); }
+.right  { transform: rotateY( 90deg) translateZ(100px); }
+.top    { transform: rotateX( 90deg) translateZ(100px); }
+.bottom { transform: rotateX(-90deg) translateZ(100px); }
+
+@keyframes rotate {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
+/* -------------------------------------------------------------------------------------------------*/ 
+/* --------------------------------------- Mobile Design -------------------------------------------*/
+@media (max-width: 668px) {
+	/* The Cube */
+	.cube , .face{
+		width: 100px;
+		height: 100px;
+	}
+	.cube-container {
+		top : 80px;
+	}
+
+	.front  { transform: rotateY(  0deg) translateZ(50px); }
+	.back   { transform: rotateY(180deg) translateZ(50px); }
+	.left   { transform: rotateY(-90deg) translateZ(50px); }
+	.right  { transform: rotateY( 90deg) translateZ(50px); }
+    .top    { transform: rotateX( 90deg) translateZ(50px); }
+	.bottom { transform: rotateX(-90deg) translateZ(50px); }
+}
+/*00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000*/
