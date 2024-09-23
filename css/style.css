@@ -15,6 +15,123 @@ body{
 	padding-left: 50px;
 }
 
+/******************************************* Navbar **********************************************/
+#toggleButton{
+  position: absolute;
+  right: 0px;
+  top : 25px;
+  /*width: 100px;*/
+}
+
+#logo{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.navbar-toggler{
+    position: absolute;
+    right: 0px;
+    border: none;
+    top: 100px;
+}
+
+.navba {
+  background-size: cover; 
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: block;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 35px;
+  font-family: 'rb_normal';
+  text-align: center;
+  margin-top: 30px;
+}
+
+.navba li {
+
+    width: auto;
+}
+
+.navba li a{
+
+    display: inline-block;
+    text-decoration: none;
+    width: auto;
+    margin: 5px;
+    color: #fff;
+}
+
+.navba li a:hover{
+  color: #F6B902;
+  font-size: 50px;
+  font-weight: 100;
+  font-family: 'rb_bold';
+  }
+
+.navbar.bg-black {
+    background-color: black;
+}
+
+.navbar.show {
+    display: block;
+}
+
+.navbar.show .nav-links {
+  /*  display: block; /* Show links when toggled */
+  top: -100px;
+}
+
+.navbar-collapse.collapse {
+           display: none;
+        }
+
+.navbar-collapse.collapse.show{
+  display: block;
+  height: 150%;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+
+.collapse{
+height: 100px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* Hide the default Bootstrap toggle button */
+.navbar-toggler {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.navbar-toggler-icon {
+
+}
+
+.navbar-toggler img {
+text-align: right;
+align-self: right;
+align-content: right;
+align-items: right;
+width: 100%;
+}
+
+/*--------------------------------------------------------------------------------*/
+
 /******************************************* Section Welcome**************************************/
 #welcome{
 	/*background-color: red;*/
@@ -45,10 +162,10 @@ body{
 
 .cube-container {
   perspective: 1000px;
-  position: absolute;
-  top: 250px;
-  right: 100px;
-  left: 100px;
+  position: relative;
+  top: -400px;
+  /*right: 500px;*/
+  /*left: 200px;*/
 }
 
 .cube {
@@ -98,7 +215,7 @@ body{
 		height: 100px;
 	}
 	.cube-container {
-		top : 80px;
+		top : -100px;
 	}
 
 	.front  { transform: rotateY(  0deg) translateZ(50px); }

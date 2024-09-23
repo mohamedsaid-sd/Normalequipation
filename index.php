@@ -135,6 +135,55 @@
   </style>
 <body>
 <div class="container">
+
+      <section id="navbar">
+
+   <!--        <div id="progress-bar-container">
+          <div id="progress-bar"></div>
+      </div> -->
+
+    <nav class="navba navbar-custom">
+    <!--   <canvas id="bgCanvas"></canvas> -->
+       <!--  <div id="progress-bar-container">
+          <div id="progress-bar"></div>
+      </div> -->
+     <div class="navbar-header">
+        <!-- <div id="progress-container">0%</div> -->
+        <canvas id="bgCanvas"></canvas>
+        <!-- <img id="customCursor" src="2.svg" alt="Custom Cursor"> -->
+           <!-- Logo -->
+        <a id="logo" href="#" class="navbar-logo">
+           <img id="logoimg" src="icons/main icon.svg" alt="Logo" width="40">
+        </a>
+
+           <!-- Custom Toggle Button -->
+        <button id="toggleButton" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <img id="togimg" class="navbar-toggler-icon" src="icons/Three lines.svg" alt="Three Lines">
+        </button>
+
+       </div>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="nav-links">
+          <li><a href="#home" data-bg="images/nav/home.png">الرئيســـــــــية</a></li>
+          <li><a href="#about" data-bg="images/nav/about.png">من نحــــــــــــن</a></li>
+          <li><a href="#services" data-bg="images/nav/servise.png">خدمــــــــــــاتنا</a></li>
+          <li><a href="#services" data-bg="images/nav/fields.png">مجالات العمل</a></li>
+          <li><a href="#services" data-bg="images/nav/fleet.png">الإسطــــــــول</a></li>
+          <li><a href="#services" data-bg="images/nav/gallery.png"> معرض الصور </a></li>
+          <li><a href="#contact" data-bg="images/nav/news.png">أهم الأخـــــبار</a></li>
+           <li><a href="#contact" data-bg="images/nav/contact.png">تواصل معــنا</a></li>
+      </ul>
+    </div>
+
+      <div class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+   </nav>
+        
+    </section>
 	
 	<div class="row">
 		<div class="col-lg-12">
@@ -188,7 +237,7 @@
    <main>
         <div class="slider" style="
             --width: 200px;
-            --height: 150px;
+            --height:150px;
             --quantity: 1;
         ">
             <div class="list">
