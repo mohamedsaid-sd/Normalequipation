@@ -6,6 +6,8 @@
 	<title> Eqipation | إيكوبيشن </title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
 </head>
 <style>
     /* استهداف الـ Carousel باستخدام معرف محدد */
@@ -107,6 +109,7 @@
 }
 .slider .list .item img{
     width: 100%;
+    height: 100%;
 }
 @keyframes autoRun{
     from{
@@ -132,9 +135,26 @@
         left: 100%;
     }
 }
+
+.swiper {
+    width: 80%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent , #0002 , #0004);
+  }
   </style>
 <body>
-<div>
+<div >
 
       <section id="navbar">
 
@@ -235,31 +255,12 @@
 	</div>
 </section>
    <main>
-<!--         <div class="slider" style="
-            --width: 200px;
-            --height:150px;
-            --quantity: 1;
-        ">
-            <div class="list">
-                <div class="item" style="--position: 1"><img style="height: 200px;" src="images/slider1_1.png" alt=""></div>
-                <div class="item" style="--position: 2"><img src="images/slider1_2.png" alt=""></div>
-                <div class="item" style="--position: 3"><img src="images/slider1_3.png" alt=""></div>
-                <div class="item" style="--position: 4"><img src="images/slider1_4.png" alt=""></div>
-                <div class="item" style="--position: 5"><img src="images/slider1_5.png" alt=""></div>
-                <div class="item" style="--position: 6"><img src="images/slider1_6.png" alt=""></div>
-                <div class="item" style="--position: 7"><img src="images/slider1_7.png" alt=""></div>
-                <div class="item" style="--position: 8"><img src="images/slider1_8.png" alt=""></div>
-                <div class="item" style="--position: 9"><img src="images/slider1_9.png" alt=""></div>
-                <div class="item" style="--position: 10"><img style="height: 200px;" src="images/slider1_10.png" alt=""></div>
-            </div>
-        </div> -->
+       
 
-        <div class="slider" style="
-            background-image: url('images/services/bg.jpg');
-            --width: 800px;
-            --height: 550px;
-            --quantity: 9;
-            padding: 20px;
+        <div class="slider" reverse="true" style="
+            --width: 900px;
+            --height: 900px;
+            --quantity: 5;
         ">
             <div class="list">
                 <div class="item" style="--position: 1"><img src="images/services/services0.png" alt=""></div>
@@ -391,6 +392,79 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+
+
+
+
+ <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-07.jpg" alt="">
+      </div>
+
+      <!-- 15 div -->
+    
+    </div>
+  </div>
+
+
+    
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 15,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: true,
+      },
+      loop: true,
+    });
+  </script>
 
 
 </div>
