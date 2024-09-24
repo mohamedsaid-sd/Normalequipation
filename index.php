@@ -454,92 +454,282 @@
         <!-- list item -->
         <div class="list">
             <div class="item">
-                <img src="images/statistics/statistics-02.jpg">
+                <img src="images/statistics/constraction.png">
                 <div class="content">
-                   <!--  <div class="author">LUNDEV</div>
-                    <div class="title">DESIGN SLIDER</div>
-                    <div class="topic">ANIMAL</div>
+                    <div class="author">construction projects </div>
+                    <div class="title">construction projects </div>
+                    <div class="topic">***</div>
                     <div class="des">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                     In conjunction with the development taking place in the country. Equipation has developed the services provided to serve the field for contracting of mining in the country. 
                     </div>
-                    <div class="buttons">
-                        <button>SEE MORE</button>
-                        <button>SUBSCRIBE</button>
-                    </div> -->
+                    <br>
+
+                      <div class="ul-list">
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Digging  necessary infrastructure for constructing buildings </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Removing old buildings and moving debris </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Bricks making projects , of various types and sizes </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Packing and transporting building materials </p>
+                </div>
+              </div>
+            
+            </div>
+
                 </div>
             </div>
             <div class="item">
-                <img src="images/statistics/statistics-03.jpg">
+                <img src="images/statistics/roads.png">
                 <div class="content">
-                    <!-- <div class="author">LUNDEV</div>
-                    <div class="title">DESIGN SLIDER</div>
-                    <div class="topic">ANIMAL</div>
+                   <div class="author">Roads and bridges projects</div>
+                    <div class="title">Roads and bridges projects</div>
+                    <div class="topic">****</div>
                     <div class="des">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                     Equipation works on implementing road , bridge , water drainge projects armed with  best of machinery and equipment
                     </div>
-                    <div class="buttons">
-                        <button>SEE MORE</button>
-                        <button>SUBSCRIBE</button>
-                    </div> -->
+                    <br>
+
+
+            <div class="ul-list">
+              <div class="li-item">
+                <p>
+                 team of skilled engineers and technicians to implement projects complied to international standards
+                </p>
+              </div>
+            </div>
+
                 </div>
             </div>
             <div class="item">
-                <img src="images/statistics/statistics-04.jpg">
+                <img src="images/statistics/Agricltural.png">
                 <div class="content">
-                    <!-- <div class="author">LUNDEV</div>
-                    <div class="title">DESIGN SLIDER</div>
-                    <div class="topic">ANIMAL</div>
+                     <div class="author">  Agricltural projects</div>
+                    <div class="title">  Agricltural projects</div>
+                    <div class="topic">***</div>
                     <div class="des">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                   Heavy machinery plays a role in preparing and leveling agricultural lands. Contribute
+                  Equipation effectively in a number of agricultural projects by providing high-performance machinery and a specialized technical team.
                     </div>
-                    <div class="buttons">
-                        <button>SEE MORE</button>
-                        <button>SUBSCRIBE</button>
-                    </div> -->
+
+                    <br>
+
+                  <div class="ul-list">
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Digging and cleaning irrigation canals </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Execution and settlement of internal streets on farms </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Cleaning farms , removing trees and weeds </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Settlement and preparation of agricultural lands </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Executing farm fencing projects </p>
+                </div>
+              </div>
+        
+            </div>
                 </div>
             </div>
             <div class="item">
-                <img src="images/statistics/statistics-05.jpg">
+                <img src="images/statistics/Mineral.png">
                 <div class="content">
-                    <!-- <div class="author">LUNDEV</div>
-                    <div class="title">DESIGN SLIDER</div>
-                    <div class="topic">ANIMAL</div>
+                     <div class="author">Mineral extraction projects</div>
+                    <div class="title">Mineral extraction projects</div>
+                    <div class="topic">***</div>
                     <div class="des">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                       Equiption Company works on gold extraction projects of various regions of Sudan.
                     </div>
-                    <div class="buttons">
-                        <button>SEE MORE</button>
-                        <button>SUBSCRIBE</button>
-                    </div> -->
+                  
+
+                  <br>
+
+                    <div class="ul-list">
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Gold mining projects through open mines. </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Mining projects in Karta projects. </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Mining projects for mill complexes. </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Equiption Company works on gold extraction projects of various regions of Sudan. </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Gold mining projects with mobile devices. </p>
+                </div>
+              </div>
+
+            </div>
                 </div>
             </div>
+
+
+
+
+              <div class="item">
+                <img src="images/statistics/National.png">
+                <div class="content">
+                     <div class="author">National projects</div>
+                    <div class="title">National projects</div>
+                    <div class="topic">***</div>
+                    <div class="des">
+                    Based on our responsibilities towards sudan and the sudanese , Equipation has implemented a number of national projects
+                    </div>
+
+                    <br>
+
+                    <div class="ul-list">
+              
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Opening waterways at fall . </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Opening and cleaning streets . </p>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-text">
+                  <p> Implementation of sanitation and water canals projects . </p>
+                </div>
+              </div>
+
+            </div>
+                  
+                </div>
+            </div>
+
+            
+
+
+            <div class="item">
+                <img src="images/statistics/Stone.png">
+                <div class="content">
+                     <div class="author">Stone mining projects</div>
+                    <div class="title">Stone mining projects</div>
+                    <div class="topic">***</div>
+                    <div class="des">
+                Equipation provides  necessary machinery to operate quarries and the company works in various fields. 
+                    </div>
+
+                    <br>
+
+            <div class="ul-list">
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-tex-list">
+                  <div class="li-text">
+                    <h3> Cement quarrying projects :</h3>
+                    <p>
+                    Cement is made of a mixture of limestone 75% and clay 25% . Iron ore or sand can be added if the clay contains a weak percrntage of iron oxide or silicon oxide . Then it is crushed into granules in the form of pebbles .
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="li-item">
+                <i class="fa-solid fa-check"></i>
+                <div class="li-tex-list">
+                  <div class="li-text">
+                    <h3>Marble quarry projects:</h3>
+                    <p>
+                       White marble is produced from highly pure limestone or dolomite (with a small percentage of silicates), and the veins characteristic of all types of colored marble are usually
+                      Due to various mineral impurities such as clay, silt, sand, or iron oxides.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+                  
+                </div>
+            </div>
+
+
         </div>
         <!-- list thumnail -->
         <div class="thumbnail">
             <div class="item">
-                <img src="images/statistics/statistics-02.jpg">
+                <img src="images/statistics/constraction.png">
                 <div class="content">
                     <div class="title">
-                        Mineral extraction project
-                    </div>
+                   construction projects 
+                                      </div>
+
+
+                        
                     <!-- <div class="description">
                         Description
                     </div> -->
                 </div>
             </div>
             <div class="item">
-                <img src="images/statistics/statistics-03.jpg">
+                <img src="images/statistics/roads.png">
                 <div class="content">
                     <div class="title">
-                        Stone mining project
-                    </div>
+                  Roads and bridges projects
+                                      </div>
                     <!-- <div class="description">
                         Description
                     </div> -->
                 </div>
             </div>
             <div class="item">
-                <img src="images/statistics/statistics-04.jpg">
+                <img src="images/statistics/Agricltural.png">
                 <div class="content">
                     <div class="title">
                         Agricltural projects
@@ -550,16 +740,48 @@
                 </div>
             </div>
             <div class="item">
-                <img src="images/statistics/statistics-05.jpg">
+                <img src="images/statistics/Mineral.png">
                 <div class="content">
                     <div class="title">
-                        Roads and bridges projects
+                      Mineral extraction projects
                     </div>
                     <div class="description">
-                        Description
+                        
                     </div>
                 </div>
             </div>
+
+
+    <div class="item">
+                <img src="images/statistics/National.png">
+                <div class="content">
+                    <div class="title">
+                   National projects
+                    </div>
+                    <div class="description">
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+             <div class="item">
+                <img src="images/statistics/Stone.png">
+                <div class="content">
+                    <div class="title">
+                   Stone mining projects 
+                    </div>
+                    <div class="description">
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+
+           
         </div>
         <!-- next prev -->
 
