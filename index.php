@@ -6,7 +6,8 @@
 	<title> Eqipation | إيكوبيشن </title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/work_filed.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
 </head>
 <style>
@@ -400,7 +401,7 @@
 
 
 
- <div class="swiper mySwiper">
+<!--  <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img src="images/statistics/statistics-07.jpg" alt="">
@@ -444,9 +445,131 @@
 
       <!-- 15 div -->
     
-    </div>
-  </div>
+<!--     </div>
+  </div> --> 
 
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="images/statistics/statistics-02.jpg">
+                <div class="content">
+                   <!--  <div class="author">LUNDEV</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/statistics/statistics-03.jpg">
+                <div class="content">
+                    <!-- <div class="author">LUNDEV</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/statistics/statistics-04.jpg">
+                <div class="content">
+                    <!-- <div class="author">LUNDEV</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/statistics/statistics-05.jpg">
+                <div class="content">
+                    <!-- <div class="author">LUNDEV</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="images/statistics/statistics-02.jpg">
+                <div class="content">
+                    <div class="title">
+                        Mineral extraction project
+                    </div>
+                    <!-- <div class="description">
+                        Description
+                    </div> -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/statistics/statistics-03.jpg">
+                <div class="content">
+                    <div class="title">
+                        Stone mining project
+                    </div>
+                    <!-- <div class="description">
+                        Description
+                    </div> -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/statistics/statistics-04.jpg">
+                <div class="content">
+                    <div class="title">
+                        Agricltural projects
+                    </div>
+                    <!-- <div class="description">
+                        Description
+                    </div> -->
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/statistics/statistics-05.jpg">
+                <div class="content">
+                    <div class="title">
+                        Roads and bridges projects
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div> <!-- // Cursoul  -->
 
     
   <!-- Swiper JS -->
@@ -479,6 +602,7 @@
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
 <script type="text/javascript">
 // alert("go to script code ! ");
 counter();
