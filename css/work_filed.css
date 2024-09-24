@@ -34,6 +34,7 @@ a{
     height: 100%;
     position: absolute;
     inset: 0 0 0 0;
+    text-align: justify;
 }
 .carousel .list .item img{
     width: 100%;
@@ -55,7 +56,6 @@ a{
     height: 100%;
     padding-top : 3%;
     padding-left: 20%;
-    text-align: justify;
 }
 .carousel .list .item .author{
     font-weight: bold;
@@ -73,6 +73,7 @@ a{
     font-size: 1.7em;
     font-weight: bold;
     line-height: 1.3em;
+     text-align: left;
 }
 .carousel .list .item .topic{
     color: orange;
