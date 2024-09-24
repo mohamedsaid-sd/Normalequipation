@@ -206,6 +206,63 @@ width: 100%;
   }
 }
 
+/* ------------------------------------ Section Statics ----------------------------------------- */
+#statistics{
+  background: url('../images/statistics/statistics-01.jpg');
+  background-size: 1100px;
+  background-position: center;
+  width: 100%;
+  height: 1200px;
+}
+
+.stsc-text-1{
+  position: relative;
+  top: 120px;
+  left: 75px;
+}
+
+.stsc-text-2{
+  position: relative;
+  top: 180px;
+  right: 150px;
+}
+
+.stsc-text-3{
+  position: relative;
+  top: 100px;
+  left: 150px;
+}
+
+
+.stsc-text-4{
+  position: relative;
+  bottom: 90px;
+  right: 80px;
+}
+
+.stsc-text-5{
+  position: relative;
+  top: 100px;
+  right: 80px;
+}
+
+.stsc-text-6{
+  position: relative;
+  top: 10px;
+  left: 80px;
+}
+
+.statistics-list h3{
+  font-size: 30px;
+}
+
+.statistics-list h4{
+  font-size: 15px;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+
+
 /* -------------------------------------------------------------------------------------------------*/ 
 /* --------------------------------------- Mobile Design -------------------------------------------*/
 @media (max-width: 668px) {

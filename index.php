@@ -134,7 +134,7 @@
 }
   </style>
 <body>
-<div class="container">
+<div>
 
       <section id="navbar">
 
@@ -235,13 +235,13 @@
 	</div>
 </section>
    <main>
-        <div class="slider" style="
+<!--         <div class="slider" style="
             --width: 200px;
             --height:150px;
             --quantity: 1;
         ">
             <div class="list">
-                <div class="item" style="--position: 1"><img src="images/slider1_1.png" alt=""></div>
+                <div class="item" style="--position: 1"><img style="height: 200px;" src="images/slider1_1.png" alt=""></div>
                 <div class="item" style="--position: 2"><img src="images/slider1_2.png" alt=""></div>
                 <div class="item" style="--position: 3"><img src="images/slider1_3.png" alt=""></div>
                 <div class="item" style="--position: 4"><img src="images/slider1_4.png" alt=""></div>
@@ -250,123 +250,115 @@
                 <div class="item" style="--position: 7"><img src="images/slider1_7.png" alt=""></div>
                 <div class="item" style="--position: 8"><img src="images/slider1_8.png" alt=""></div>
                 <div class="item" style="--position: 9"><img src="images/slider1_9.png" alt=""></div>
-                <div class="item" style="--position: 10"><img src="images/slider1_10.png" alt=""></div>
+                <div class="item" style="--position: 10"><img style="height: 200px;" src="images/slider1_10.png" alt=""></div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="slider" reverse="true" style="
-            --width: 200px;
-            --height: 200px;
-            --quantity: 5;
+        <div class="slider" style="
+            background-image: url('images/services/bg.jpg');
+            --width: 800px;
+            --height: 550px;
+            --quantity: 9;
+            padding: 20px;
         ">
             <div class="list">
-                <div class="item" style="--position: 1"><img src="images/services/services2.png" alt=""></div>
-                <div class="item" style="--position: 2"><img src="images/services/services2.png" alt=""></div>
+                <div class="item" style="--position: 1"><img src="images/services/services0.png" alt=""></div>
+                <div class="item" style="--position: 2"><img src="images/services/services1.png" alt=""></div>
                 <div class="item" style="--position: 3"><img src="images/services/services2.png" alt=""></div>
-                <div class="item" style="--position: 4"><img src="images/services/services2.png" alt=""></div>
-                <div class="item" style="--position: 5"><img src="images/services/services2.png" alt=""></div>
-                <div class="item" style="--position: 6"><img src="images/services/services2.png" alt=""></div>
-                <div class="item" style="--position: 7"><img src="images/services/services2.png" alt=""></div>
-                <div class="item" style="--position: 8"><img src="images/services/services2.png" alt=""></div>
-                <div class="item" style="--position: 9"><img src="images/services/services2.png" alt=""></div>
+                <div class="item" style="--position: 4"><img src="images/services/services3.png" alt=""></div>
+                <div class="item" style="--position: 5"><img src="images/services/services4.png" alt=""></div>
+                <div class="item" style="--position: 6"><img src="images/services/services5.png" alt=""></div>
+                <div class="item" style="--position: 7"><img src="images/services/services6.png" alt=""></div>
+                <div class="item" style="--position: 8"><img src="images/services/services7.png" alt=""></div>
+                <div class="item" style="--position: 9"><img src="images/services/services8.png" alt=""></div>
             </div>
         </div>
     </main>
 
 
+<section id="statistics">
 
-<div id="carouselExample" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExample" data-slide-to="1"></li>
-    <li data-target="#carouselExample" data-slide-to="2"></li>
-    <li data-target="#carouselExample" data-slide-to="3"></li>
-    <li data-target="#carouselExample" data-slide-to="4"></li>
-    <li data-target="#carouselExample" data-slide-to="5"></li>
-    <li data-target="#carouselExample" data-slide-to="6"></li>
-    <li data-target="#carouselExample" data-slide-to="7"></li>
-  </ol>
+<!-- Start Statistics Area -->
+<div class="statistics-area">
+  <div class="container">
+    <!-- Section Title -->
+<!--     <div class="main-sec-title text-center white-color">
+      <h4> إحصائيات إيكوبيشن</h4>
+      <h3> نكشف عن إنجازاتنا بتفاصيل رقمية تبرز قوة وتأثير الإنجازات والتميز  </h3>
+    </div> -->
+    <div class="row" style="color: #fff;">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <center>
+        <div class="statistics-list">
+          <!-- 1 -->
+          <div class="stscs-item">
+            <div class="stsc-icon">
+             <!--  <img src="img/statistics/stsc_01.svg" alt=""> -->
+            </div>
+            <div class="stsc-text-1">
+              <h3> +  <span class="counterUp" data-count="323"> 323 </span> </h3>
+              <h4> Total Projects </h4>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="stscs-item">
+            <div class="stsc-icon">
+              <!-- <img src="img/statistics/stsc_02.svg" alt=""> -->
+            </div>
+            <div class="stsc-text-2">
+              <h3> +  <span class="counterUp" data-count="69"> 69 </span> </h3>
+              <h4> Clients </h4>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="stscs-item">
+            <div class="stsc-icon">
+              <!-- <img src="img/statistics/stsc_04.svg" alt=""> -->
+            </div>
+            <div class="stsc-text-3">
+              <h3> +  <span class="counterUp" data-count="81"> 81 </span> K </h3>
+              <h4> Equipment hours </h4>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="stscs-item">
+            <div class="stsc-icon">
+              <!-- <img src="img/statistics/stsc_03.svg" alt=""> -->
+            </div>
+            <div class="stsc-text-4">
+              <h3> +  <span class="counterUp" data-count="771979"> 771979 </span> </h3>
+              <h4> production work </h4>
+            </div>
+          </div>
+          <!-- 5 -->
+          <div class="stscs-item">
+            <div class="stsc-icon">
+              <!-- <img src="img/statistics/stsc_05.svg" alt=""> -->
+            </div>
+            <div class="stsc-text-5">
+              <h3> +  <span class="counterUp" data-count="40"> 40 </span> </h3>
+              <h4> Operating <br/> mechanisms </h4>
+            </div>
+          </div>
+          <!-- 6 -->
+          <div class="stscs-item">
+            <div class="stsc-icon">
+              <!-- <img src="img/statistics/stsc_06.svg" alt=""> -->
+            </div>
+            <div class="stsc-text-6">
+              <h3> +  <span class="counterUp" data-count="10000"> 10000 </span> </h3>
+              <h4> Sector <br/> specialists </h4>
+            </div>
+          </div>
+
+        </div><!-- // Statistics-list -->
+      </center> <!-- // Center -->
+      </div><!-- // Col -->
+    </div><!-- // Row -->
+  </div><!-- // Container -->
+</div><!-- // Statistics Section -->
   
-  <div style="background:url('images/services/bg.jpg');background-size: 100%;" class="carousel-inner">
-    
-    <div class="carousel-item active">
-      <div class="row">
-        <div class="col-md-12">
-          <img src="images/services/services0.png" class="d-block w-100" alt="Image 1">
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-    	<div class="row">
-    		<div class="col-lg-12">
-    			<img src="images/services/services1.png" class="d-block w-100" alt="Image 4">
-    		</div>
-    	</div>
-    </div>
-    <div class="carousel-item">
-    	<div class="row">
-    		<div class="col-lg-12">
-    			<img src="images/services/services2.png" class="d-block w-100" alt="Image 4">
-    		</div>
-    	</div>
-    </div>
-    <div class="carousel-item">
-    	<div class="row">
-    		<div class="col-lg-12">
-    			<img src="images/services/services3.png" class="d-block w-100" alt="Image 4">
-    		</div>
-    	</div>
-    </div>
-     <div class="carousel-item">
-    	<div class="row">
-    		<div class="col-lg-12">
-    			<img src="images/services/services4.png" class="d-block w-100" alt="Image 4">
-    		</div>
-    	</div>
-    </div>
-     <div class="carousel-item">
-    	<div class="row">
-    		<div class="col-lg-12">
-    			<img src="images/services/services5.png" class="d-block w-100" alt="Image 4">
-    		</div>
-    	</div>
-    </div>
-     <div class="carousel-item">
-    	<div class="row">
-    		<div class="col-lg-12">
-    			<img src="images/services/services6.png" class="d-block w-100" alt="Image 4">
-    		</div>
-    	</div>
-    </div>
-     <div class="carousel-item">
-    	<div class="row">
-    		<div class="col-lg-12">
-    			<img src="images/services/services7.png" class="d-block w-100" alt="Image 4">
-    		</div>
-    	</div>
-    </div>
-    <div class="carousel-item">
-    	<div class="row">
-    		<div class="col-lg-12">
-    			<img src="images/services/services8.png" class="d-block w-100" alt="Image 4">
-    		</div>
-    	</div>
-    </div>
-
-
-
-  </div>
-
-  <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
+</section>
 
 <div id="verticalCarousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -406,8 +398,30 @@
 <!-- Bootstrap JS and dependencies -->
 <script src="js/bootstrap.bundle.min.js"></script>
 <!-- Include Bootstrap JS and dependencies -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+<script type="text/javascript">
+// alert("go to script code ! ");
+counter();
+function counter(){
+  var $this = $(this),
+                countTo = $this.attr('data-count');
+            $({
+                countNum: $this.text()
+            }).animate({
+                countNum: countTo
+            }, {
+                duration: 4000,
+                easing: 'swing',
+                step: function () {
+                    $this.text(Math.floor(this.countNum));
+                },
+                complete: function () {
+                    $this.text(this.countNum);
+                }
+            });
+countTo = $this.attr('data-count');
+}
+</script>
 </html>
