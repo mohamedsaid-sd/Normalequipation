@@ -24,7 +24,7 @@ body{
 }
 
 #logo{
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 30px;
   width: 100px;
@@ -32,7 +32,7 @@ body{
 }
 
 .navbar-toggler{
-    position: absolute;
+   position: fixed;
     right: 0px;
     border: none;
     top: 100px;
@@ -112,11 +112,11 @@ height: 100px;
 /* ---------------------------------------------------------------------------- */
 
 /* Hide the default Bootstrap toggle button */
-.navbar-toggler {
+/* .navbar-toggler {
     background: none;
     border: none;
     padding: 0;
-}
+} */
 
 .navbar-toggler-icon {
 

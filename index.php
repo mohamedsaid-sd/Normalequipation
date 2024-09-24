@@ -137,14 +137,14 @@
 }
 
 .swiper {
-    width: 80%;
-    height: 100%;
+    width: 100%;
+    height: 500px;
   }
 
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 350px;
+    width: 900px;
   }
 
   .swiper-slide img {
@@ -254,27 +254,31 @@
 		</div>	
 	</div>
 </section>
-   <main>
+
+
+<main>
        
 
-        <div class="slider" reverse="true" style="
+       <div class="slider" style="
+        background-image: url('images/services/bg.jpg');
             --width: 900px;
-            --height: 900px;
-            --quantity: 5;
-        ">
-            <div class="list">
-                <div class="item" style="--position: 1"><img src="images/services/services0.png" alt=""></div>
-                <div class="item" style="--position: 2"><img src="images/services/services1.png" alt=""></div>
-                <div class="item" style="--position: 3"><img src="images/services/services2.png" alt=""></div>
-                <div class="item" style="--position: 4"><img src="images/services/services3.png" alt=""></div>
-                <div class="item" style="--position: 5"><img src="images/services/services4.png" alt=""></div>
-                <div class="item" style="--position: 6"><img src="images/services/services5.png" alt=""></div>
-                <div class="item" style="--position: 7"><img src="images/services/services6.png" alt=""></div>
-                <div class="item" style="--position: 8"><img src="images/services/services7.png" alt=""></div>
-                <div class="item" style="--position: 9"><img src="images/services/services8.png" alt=""></div>
-            </div>
-        </div>
-    </main>
+            --height: 550px;
+            --quantity: 9;
+            padding: 20px;
+       ">
+           <div class="list">
+               <div class="item" style="--position: 1"><img src="images/services/services0.png" alt=""></div>
+               <div class="item" style="--position: 2"><img src="images/services/services1.png" alt=""></div>
+               <div class="item" style="--position: 3"><img src="images/services/services2.png" alt=""></div>
+               <div class="item" style="--position: 4"><img src="images/services/services3.png" alt=""></div>
+               <div class="item" style="--position: 5"><img src="images/services/services4.png" alt=""></div>
+               <div class="item" style="--position: 6"><img src="images/services/services5.png" alt=""></div>
+               <div class="item" style="--position: 7"><img src="images/services/services6.png" alt=""></div>
+               <div class="item" style="--position: 8"><img src="images/services/services7.png" alt=""></div>
+               <div class="item" style="--position: 9"><img src="images/services/services8.png" alt=""></div>
+           </div>
+       </div>
+   </main>
 
 
 <section id="statistics">
@@ -361,7 +365,7 @@
   
 </section>
 
-<div id="verticalCarousel" class="carousel slide" data-ride="carousel">
+<!-- <div id="verticalCarousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="images/statistics/statistics-02.jpg" alt="Image 1">
@@ -391,7 +395,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div> -->
 
 
 
@@ -402,40 +406,40 @@
         <img src="images/statistics/statistics-07.jpg" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="images/statistics/statistics-07.jpg" alt="">
+        <img src="images/statistics/statistics-02.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-03.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-04.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-05.jpg" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/statistics/statistics-06.jpg" alt="">
       </div>
       <div class="swiper-slide">
         <img src="images/statistics/statistics-07.jpg" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="images/statistics/statistics-07.jpg" alt="">
+        <img src="images/statistics/statistics-06.jpg" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="images/statistics/statistics-07.jpg" alt="">
+        <img src="images/statistics/statistics-02.jpg" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="images/statistics/statistics-07.jpg" alt="">
+        <img src="images/statistics/statistics-03.jpg" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="images/statistics/statistics-07.jpg" alt="">
+        <img src="images/statistics/statistics-04.jpg" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="images/statistics/statistics-07.jpg" alt="">
+        <img src="images/statistics/statistics-05.jpg" alt="">
       </div>
       <div class="swiper-slide">
-        <img src="images/statistics/statistics-07.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="images/statistics/statistics-07.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="images/statistics/statistics-07.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="images/statistics/statistics-07.jpg" alt="">
-      </div>
-      <div class="swiper-slide">
-        <img src="images/statistics/statistics-07.jpg" alt="">
+        <img src="images/statistics/statistics-06.jpg" alt="">
       </div>
 
       <!-- 15 div -->
