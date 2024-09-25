@@ -8,184 +8,27 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/work_filed.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-
+  <link rel="shortcut icon" type="image/x-icon" href="icons/main icon.svg">
 </head>
-<style>
-    /* استهداف الـ Carousel باستخدام معرف محدد */
-    #verticalCarousel .carousel-item {
-      height: 400px; /* تعديل ارتفاع السلايدر */
-    }
-
-    #verticalCarousel .carousel-item img {
-      width: 100%;
-      height: 100%;
-      align-self: flex-end;
-      object-fit:cover;
-
-    }
-
-    /* الحركة العمودية: الصور تنتقل من الأسفل للأعلى */
-    #verticalCarousel .carousel-inner {
-      position: relative;
-      height: 500px; /* ضبط ارتفاع السلايدر */
-    }
-
-    #verticalCarousel .carousel-item-next, 
-    #verticalCarousel .carousel-item-prev {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      transition: transform 0.6s ease-in-out;
-    }
-
-    /* إعداد حركة الصورة القادمة من الأسفل */
-    #verticalCarousel .carousel-item-next {
-      transform: translateY(100%);
-    }
-
-    /* إعداد حركة الصورة السابقة من الأعلى */
-    #verticalCarousel .carousel-item-prev {
-      transform: translateY(-100%);
-    }
-
-    /* إعداد الصورة الحالية */
-    #verticalCarousel .carousel-item.active {
-      transform: translateY(0);
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      transition: transform 0.6s ease-in-out;
-    }
-
-    /* حركة الصور عند التبديل */
-    #verticalCarousel .carousel-item-next.active,
-    #verticalCarousel .carousel-item-prev.active {
-      transform: translateY(0);
-    }
-
-    #verticalCarousel .carousel-item.active.carousel-item-left,
-    #verticalCarousel .carousel-item.active.carousel-item-right {
-      transform: translateY(-100%);
-    }
-
-    #verticalCarousel .carousel-item-next.carousel-item-left,
-    #verticalCarousel .carousel-item-prev.carousel-item-right {
-      transform: translateY(0);
-    }
-
-
-    main{
-    width: min(1900px, 900vw);
-    margin: auto;
-}
-.slider{
-    width: 100%;
-    height: var(--height);
-    overflow: hidden;
-    mask-image: linear-gradient(
-        to right,
-        transparent,
-        #000 10% 90%,
-        transparent
-    );
-}
-.slider .list{
-    display: flex;
-    width: 100%;
-          height: 100%;
-
-    min-width: calc(var(--width) * var(--quantity));
-    position: relative;
-}
-.slider .list .item{
-    width: var(--width);
-    height: var(--height);
-    position: absolute;
-    left: 100%;
-    animation: autoRun 50s linear infinite;
-    transition: filter 0.5s;
-    animation-delay: calc( (50s / var(--quantity)) * (var(--position) - 1) - 50s)!important;
-}
-.slider .list .item img{
-    width: 100%;
-    height: 100%;
-}
-@keyframes autoRun{
-    from{
-        left: 100%;
-    }to{
-        left: calc(var(--width) * -1);
-    }
-}
-.slider:hover .item{
-    animation-play-state: paused!important;
-    filter: grayscale(1);
-}
-.slider .item:hover{
-    filter: grayscale(0);
-}
-.slider[reverse="true"] .item{
-    animation: reversePlay 50s linear infinite;
-}
-@keyframes reversePlay{
-    from{
-        left: calc(var(--width) * -1);
-    }to{
-        left: 100%;
-    }
-}
-
-.swiper {
-    width: 100%;
-    height: 500px;
-  }
-
-  .swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 900px;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent , #0002 , #0004);
-  }
-  </style>
-<body>
-<div >
-
-      <section id="navbar">
-
-   <!--        <div id="progress-bar-container">
-          <div id="progress-bar"></div>
-      </div> -->
-
+<body>  
+  <!-- The Navbar -->    
+  <section id="navbar">
     <nav class="navba navbar-custom">
-    <!--   <canvas id="bgCanvas"></canvas> -->
-       <!--  <div id="progress-bar-container">
-          <div id="progress-bar"></div>
-      </div> -->
-     <div class="navbar-header">
-        <!-- <div id="progress-container">0%</div> -->
+      <div class="navbar-header">
         <canvas id="bgCanvas"></canvas>
-        <!-- <img id="customCursor" src="2.svg" alt="Custom Cursor"> -->
-           <!-- Logo -->
+
         <a id="logo" href="#" class="navbar-logo">
-           <img id="logoimg" src="icons/main icon.svg" alt="Logo" width="40">
+          <img id="logoimg" src="icons/main icon.svg" alt="Logo" width="40">
         </a>
 
-           <!-- Custom Toggle Button -->
+        <!-- Custom Toggle Button -->
         <button id="toggleButton" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <img id="togimg" class="navbar-toggler-icon" src="icons/Three lines.svg" alt="Three Lines">
+          <img id="togimg" class="navbar-toggler-icon" src="icons/Three lines.svg" alt="Three Lines">
         </button>
+      </div>
 
-       </div>
-
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="nav-links">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="nav-links">
           <li><a href="#home" data-bg="images/nav/home.png">الرئيســـــــــية</a></li>
           <li><a href="#about" data-bg="images/nav/about.png">من نحــــــــــــن</a></li>
           <li><a href="#services" data-bg="images/nav/servise.png">خدمــــــــــــاتنا</a></li>
@@ -194,101 +37,95 @@
           <li><a href="#services" data-bg="images/nav/gallery.png"> معرض الصور </a></li>
           <li><a href="#contact" data-bg="images/nav/news.png">أهم الأخـــــبار</a></li>
            <li><a href="#contact" data-bg="images/nav/contact.png">تواصل معــنا</a></li>
-      </ul>
-    </div>
+        </ul>
+      </div>
 
       <div class="hamburger-menu">
-          <span></span>
-          <span></span>
-          <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-   </nav>
-        
-    </section>
-	
-	<div class="row">
-		<div class="col-lg-12">
-			<img src="images/cube/eq.png" class="img-fluid"/>
-		</div>	
+    </nav>        
+  </section>
 
-		<center>
-		<div class="cube-container">
-  			<div class="cube">
-    			<div class="face front"><img src="images/cube/1.jpg" alt="Front"></div>
-    			<div class="face back"><img src="images/cube/2.jpg" alt="Back"></div>
-    			<div class="face left"><img src="images/cube/3.jpg" alt="Left"></div>
-    			<div class="face right"><img src="images/cube/4.jpg" alt="Right"></div>
-    			<div class="face top"><img src="images/cube/5.jpg" alt="Top"></div>
-    			<div class="face bottom"><img src="images/cube/6.jpg" alt="Bottom"></div>
-  		</div>
-  		</center>
+  <div class="row">
+    <div class="col-lg-12">
+      <!-- The Cube ! -->
+      <div class="cube-container">
+        <div class="cube">
+          <div class="face front"><img src="images/cube/1.jpg" alt="Front"></div>
+          <div class="face back"><img src="images/cube/2.jpg" alt="Back"></div>
+          <div class="face left"><img src="images/cube/3.jpg" alt="Left"></div>
+          <div class="face right"><img src="images/cube/4.jpg" alt="Right"></div>
+          <div class="face top"><img src="images/cube/5.jpg" alt="Top"></div>
+          <div class="face bottom"><img src="images/cube/6.jpg" alt="Bottom"></div>
+        </div>
+      </div>
+      <!-- The Cube Background -->
+      <div id="cube_background" class="col-lg-12">
+        <img style="width: 100%;height: 100%;" src="images/cube/eq.png"/>
+      </div>
+    </div>
+  </div>
 
-	</div>
+  <!-- Welcome Section -->
+  <section id="welcome">
+	  <div class="row">
+		  <div class="col-lg-12">
+			  <img id="welcom_image" src="images/welcome/welcome.png" class="custom-image" />
+		  </div>
+	  </div>
 
-
-<section id="welcome">
-	<div class="row">
-		<div style="padding-right: 10px;" class="col-lg-12">
-			<img src="images/welcome/welcome.png" class="custom-image" />
-			<br/><br/>
-		</div>
-	</div>
-
-	<div id="welcome" style="background:url('images/backgrounds/back.png');background-size: 100%;background-repeat: no-repeat;margin-right: 50px;margin-left:50px;color: #fff;" class="row">
-		<div class="col-sm-4">
-			<br/><br/>
-			<h4> to the Equipation <br/>
-			 electronic platform </h4>
-			 <img class="arrow" src="images/welcome/social.png"/>
-			 <p> hthjthj kth kjhjdhjhdjkas
-			 aksjh sajdhj jashjkashdkjahdkja djkash dkjashd jksad
-			 sakj dasjdhjashdkas sdahasdjhdkjhasjhakds
-			 saj ahsjdkhasjdkhadskj </p>
-		</div>	
-		<div class="col-sm-4">
-			<img id="miner" src="images/welcome/miner.png"/>
-		</div>	
-		<div class="col-sm-4">
-			<img id="gallary" src="images/welcome/gallary.png"/>
-			<br/>
-			<img  id="arrow" src="images/welcome/arrow.png"/>
-		</div>	
-	</div>
-</section>
-
-
-<main>
-       
-
-       <div class="slider" style="
-        background-image: url('images/services/bg.jpg');
-            --width: 900px;
-            --height: 550px;
-            --quantity: 9;
-            padding: 20px;
-       ">
-           <div class="list">
-               <div class="item" style="--position: 1"><img src="images/services/services0.png" alt=""></div>
-               <div class="item" style="--position: 2"><img src="images/services/services1.png" alt=""></div>
-               <div class="item" style="--position: 3"><img src="images/services/services2.png" alt=""></div>
-               <div class="item" style="--position: 4"><img src="images/services/services3.png" alt=""></div>
-               <div class="item" style="--position: 5"><img src="images/services/services4.png" alt=""></div>
-               <div class="item" style="--position: 6"><img src="images/services/services5.png" alt=""></div>
-               <div class="item" style="--position: 7"><img src="images/services/services6.png" alt=""></div>
-               <div class="item" style="--position: 8"><img src="images/services/services7.png" alt=""></div>
-               <div class="item" style="--position: 9"><img src="images/services/services8.png" alt=""></div>
-           </div>
-       </div>
-   </main>
+	  <!-- <div style="background:url('images/backgrounds/back.png');background-size: 100%;background-repeat: no-repeat;margin-right: 50px;margin-left:50px;color: #fff;" class="row"> -->
+    <div id="welcome_polygon" class="row">
+		  <div class="col-xl-4">
+			  <h4> to the Equipation <br/>electronic platform </h4>
+			     <img id="social" src="images/welcome/social.png"/>
+			  <p> Your Ideal parenter since 2015,
+            providing the latest heavy
+            machanary to support the largest
+            production projects, with the highest
+            standards of efficiency 
+            and advanced management,
+            through strategic partenership
+            that enhance your success  </p>
+		  </div>	
+		
+      <div class="col-xl-4">
+			  <img id="miner" src="images/welcome/miner.png"/>
+		  </div>	
+		
+      <div class="col-xl-4">
+			 <img id="gallary" src="images/welcome/gallary.png"/>
+			 <img  id="arrow" src="images/welcome/arrow.png"/>
+		  </div>	
+	  </div>
+  </section>
 
 
-<section id="statistics">
+  <main>
+    <div class="slider" style="background-image: url('images/services/bg.jpg');--width: 900px;--height: 550px;--quantity: 9;padding: 20px;">
+      <div class="list">
+         <div class="item" style="--position: 1"><img src="images/services/services0.png" alt=""></div>
+         <div class="item" style="--position: 2"><img src="images/services/services1.png" alt=""></div>
+         <div class="item" style="--position: 3"><img src="images/services/services2.png" alt=""></div>
+         <div class="item" style="--position: 4"><img src="images/services/services3.png" alt=""></div>
+         <div class="item" style="--position: 5"><img src="images/services/services4.png" alt=""></div>
+         <div class="item" style="--position: 6"><img src="images/services/services5.png" alt=""></div>
+         <div class="item" style="--position: 7"><img src="images/services/services6.png" alt=""></div>
+         <div class="item" style="--position: 8"><img src="images/services/services7.png" alt=""></div>
+         <div class="item" style="--position: 9"><img src="images/services/services8.png" alt=""></div>
+      </div>
+    </div>
+  </main>
 
-<!-- Start Statistics Area -->
-<div class="statistics-area">
-  <div class="container">
+
+  <section id="statistics">
+  <!-- Start Statistics Area -->
+  <div class="statistics-area">
+    <div class="container">
     <!-- Section Title -->
-<!--     <div class="main-sec-title text-center white-color">
+    <!--     <div class="main-sec-title text-center white-color">
       <h4> إحصائيات إيكوبيشن</h4>
       <h3> نكشف عن إنجازاتنا بتفاصيل رقمية تبرز قوة وتأثير الإنجازات والتميز  </h3>
     </div> -->
@@ -745,6 +582,7 @@
 
 
 </div>
+
 </body>
 <!-- Bootstrap JS and dependencies -->
 <script src="js/bootstrap.bundle.min.js"></script>
