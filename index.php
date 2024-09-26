@@ -102,22 +102,75 @@
 	  </div>
   </section>
 
+  <section id="about">
+    <div class="all">
+      <div class="row">
+        <div class="col-lg-4">
+          <span class="number">01</span>
+          <div class="card">
+            <h1> Our Activities </h1>
+            <p> we excle in the wide rang of
+                activites accross most state of
+                Sudan , from menrial extaction and
+                tunnel drinng to the search and 
+                exploration of valuable raw
+                manterials </p>
+          </div>
+           <div class="white">a</div>
+           <center><div class="orange"><div class="inside"></div></div></center>
+        </div>
 
-  <main>
-    <div class="slider" style="background-image: url('images/services/bg.jpg');--width: 900px;--height: 550px;--quantity: 9;padding: 20px;">
-      <div class="list">
-         <div class="item" style="--position: 1"><img src="images/services/services0.png" alt=""></div>
-         <div class="item" style="--position: 2"><img src="images/services/services1.png" alt=""></div>
-         <div class="item" style="--position: 3"><img src="images/services/services2.png" alt=""></div>
-         <div class="item" style="--position: 4"><img src="images/services/services3.png" alt=""></div>
-         <div class="item" style="--position: 5"><img src="images/services/services4.png" alt=""></div>
-         <div class="item" style="--position: 6"><img src="images/services/services5.png" alt=""></div>
-         <div class="item" style="--position: 7"><img src="images/services/services6.png" alt=""></div>
-         <div class="item" style="--position: 8"><img src="images/services/services7.png" alt=""></div>
-         <div class="item" style="--position: 9"><img src="images/services/services8.png" alt=""></div>
+        <div class="col-lg-4">
+          <span class="number">02</span>
+          <div class="card">
+            <h1> Our Activities </h1>
+            <p> we excle in the wide rang of
+                activites accross most state of
+                Sudan , from menrial extaction and
+                tunnel drinng to the search and 
+                exploration of valuable raw
+                manterials </p>
+          </div>
+          <div class="white">a</div>
+          <center><div class="orange"><div class="inside"></div></div></center>
+        </div>
+
+        <div class="col-lg-4">
+          <span class="number">03</span>
+          <span style="float: right;" class="number">00</span>
+          <div class="card">
+            <h1> Our Activities </h1>
+            <p> we excle in the wide rang of
+                activites accross most state of
+                Sudan , from menrial extaction and
+                tunnel drinng to the search and 
+                exploration of valuable raw
+                manterials </p>
+          </div>
+          <center><div class="orange_custom"><div class="inside"></div></div></center>
+
+        </div>
       </div>
     </div>
-  </main>
+  </section>
+
+  <section id="services">
+    <main>
+      <div class="slider" style="--width: 900px;--height: 550px;--quantity: 9;padding: 20px;">
+        <div class="list">
+          <div class="item" style="--position: 1"><img src="images/services/services0.png" alt=""></div>
+          <div class="item" style="--position: 2"><img src="images/services/services1.png" alt=""></div>
+          <div class="item" style="--position: 3"><img src="images/services/services2.png" alt=""></div>
+          <div class="item" style="--position: 4"><img src="images/services/services3.png" alt=""></div>
+          <div class="item" style="--position: 5"><img src="images/services/services4.png" alt=""></div>
+          <div class="item" style="--position: 6"><img src="images/services/services5.png" alt=""></div>
+          <div class="item" style="--position: 7"><img src="images/services/services6.png" alt=""></div>
+          <div class="item" style="--position: 8"><img src="images/services/services7.png" alt=""></div>
+          <div class="item" style="--position: 9"><img src="images/services/services8.png" alt=""></div>
+        </div>
+      </div>
+    </main>
+  </section>
 
 
   <section id="statistics">
@@ -582,6 +635,89 @@
 
 
 </div>
+
+
+  <section id="our_fleet">
+    s
+    <div class="row">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8">
+       <!--  <img id="img" style="padding-left: 50px;padding-right: 50px;" class="custom-image" src="images/fleet/fleet.png"> -->
+      </div>
+      <div class="col-lg-2"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-5"></div>
+      <div class="col-lg-2">
+        <img id="title" class="normal_image" src="images/fleet/title.png">
+      </div>
+      <div class="col-lg-5"></div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-2">
+        <div class="fleet_card">
+          <img class="arrow" src="images/welcome/arrow.png">
+          <span id="small_title"> EQUIPATION  </span>
+            <img src="#"/>
+            <h5> WHEEL LOADER </h5>
+            <p> one of the most Important and destictive
+                pieces of heavy equipment used in mining </p>
+        </div>
+      </div>
+      <div class="col-lg-2">
+        <div class="fleet_card">
+          <img class="arrow" src="images/welcome/arrow.png">
+          <span id="small_title"> EQUIPATION  </span>
+            <img src="#"/>
+            <h5> WHEEL LOADER </h5>
+            <p> one of the most Important and destictive
+                pieces of heavy equipment used in mining </p>
+        </div>
+      </div>
+      <div class="col-lg-2">
+        <div class="fleet_card">
+          <img class="arrow" src="images/welcome/arrow.png">
+          <span id="small_title"> EQUIPATION  </span>
+            <img src="#"/>
+            <h5> WHEEL LOADER </h5>
+            <p> one of the most Important and destictive
+                pieces of heavy equipment used in mining </p>
+        </div>
+      </div>
+      <div class="col-lg-2">
+        <div class="fleet_card">
+          <img class="arrow" src="images/welcome/arrow.png">
+          <span id="small_title"> EQUIPATION  </span>
+            <img src="#"/>
+            <h5> WHEEL LOADER </h5>
+            <p> one of the most Important and destictive
+                pieces of heavy equipment used in mining </p>
+        </div>
+      </div>
+      <div class="col-lg-2">
+        <div class="fleet_card">
+          <img class="arrow" src="images/welcome/arrow.png">
+          <span id="small_title"> EQUIPATION  </span>
+            <img src="#"/>
+            <h5> WHEEL LOADER </h5>
+            <p> one of the most Important and destictive
+                pieces of heavy equipment used in mining </p>
+        </div>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <a href="fleet.php"><div class="see_more"><center> SEE MORE </center></div></a>
+      </div>
+      <div class="col-lg-1"></div>
+    </div>
+  </section>
 
 </body>
 <!-- Bootstrap JS and dependencies -->

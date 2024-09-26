@@ -24,8 +24,12 @@ body{
 
 .custom-image{
 	width: 100%;
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.normal_image{
+  width: 100%;
 }
 
 /******************************************* Navbar **********************************************/
@@ -389,52 +393,109 @@ width: 100%;
 
 /*-----------------------------------------------------------------------------------------------*/
 
-.cube {
+
+/******************************************************* Section About ***************************/
+
+  #about{
+    width: 100%;
+    background : url('../images/welcome/three truck.jpg') ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 550px 30px 0px 30px;
+    font-family: 'rb_bold';
+    margin-bottom: 0px;
+  }
+
+  #about .number{
+    color: #fff;
+    font-size: 40px;
+    position: relative;
+    top: 50px;
+  }
+
+  #about .all{
+    padding: 0px 80px 0px 80px;
+  }
+
+  #about .card{
+    padding: 70px;
+    text-align: center;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    height: 320px;
+  }
+
+  #about .card h1{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 40px;
+    color : orange;
+  }
+
+  #about .card p{
+    text-align: justify;
+     position: relative;
+    bottom: 40px;
+  }
+
+  #about .orange{
+    width: 90px;
+    height:80px;
+    background-color: #E6BC44;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    position: relative;
+    bottom: 130px;
+    padding: 10px;
+  }
+
+  #about .orange_custom{
+    width: 90px;
+    height:80px;
+    background-color: #E6BC44;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    position: relative;
+    bottom: 50px;
+    padding: 10px;
+  }
+
+  #about .orange .inside , #about .orange_custom .inside{
+    width: 70px;
+    height:60px;
+    background-color: orange;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+
+  #about .white{
+    width: 90px;
+    height:80px;
+    background-color: #fff;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    position: relative;
+    bottom :15%;
+    left:90%;
+  }
+
+/*------------------------------------------------------------------------------------------------*/
+
+
+/**************************************** Section services *****************************************/
+#services{
+  background-image: url('../images/services/bg.jpg');
+  padding: 0px;
+  margin: 0px;
   position: relative;
-  width: 180px;
-  height: 180px;
-  transform-style: preserve-3d;
-  transform: rotateX(0deg) rotateY(0deg);
-  animation: rotate 15s infinite linear;
+  bottom: 15px;
 }
-
-.face {
-  position: absolute;
-  width: 180px;
-  height: 180px;
-  background-color: #000;
-  border: 2px solid #333;
-}
-
-.face img {
-  width: 100%;
-  height: 100%;
-}
-
-.front  { transform: rotateY(  0deg) translateZ(90px); }
-.back   { transform: rotateY(180deg) translateZ(90px); }
-.left   { transform: rotateY(-90deg) translateZ(90px); }
-.right  { transform: rotateY( 90deg) translateZ(90px); }
-.top    { transform: rotateX( 90deg) translateZ(90px); }
-.bottom { transform: rotateX(-90deg) translateZ(90px); }
-
-@keyframes rotate {
-  from {
-    transform: rotateX(0deg) rotateY(0deg);
-  }
-  to {
-    transform: rotateX(360deg) rotateY(360deg);
-  }
-}
+/*--------------------------------------------------------------------------------------------------*/
 
 /* ------------------------------------ Section Statics ----------------------------------------- */
-#statistics{
-  background: url('../images/statistics/statistics-01.jpg');
-  background-size: 1100px;
-  background-position: center;
-  width: 100%;
-  height: 1200px;
-}
+ #statistics{
+   background: url('../images/statistics/statistics-01.jpg');
+   background-size: 1100px;
+   background-position: center;
+   width: 100%;
+   height: 1200px;
+  }
 
 .stsc-text-1{
   position: relative;
@@ -482,6 +543,110 @@ width: 100%;
 }
 
 /*-------------------------------------------------------------------------------------------------*/
+
+
+/****************************************** Section Our Fleet ***************************************/
+  #our_fleet{
+    background : url('../images/backgrounds/fleet.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    width: 100%;
+    margin: -15px 0px 0px 0px;
+    padding: 0px 0px 30px 0px;
+  }
+
+  #our_fleet .fleet_card{
+      background-color: #ffffff22;
+      color: #fff;
+      font-family: 'rb_bold';
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px;
+  }
+
+  #our_fleet .fleet_card #small_title{
+      font-size: 10px;
+  }
+
+  #our_fleet .fleet_card .arrow{
+    width: 30px;
+    height: 30px;
+    float: right;
+  }
+
+  #our_fleet .fleet_card img{
+      width: 100%;
+      height: 200px;
+  }
+
+  #our_fleet .fleet_card h5{
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  #our_fleet .fleet_card p{
+    font-size: 10px;
+    margin: 10px;
+    text-align: justify;
+  }
+
+  #our_fleet .row .col-lg-2{
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #our_fleet .see_more{
+    background-color: #FFA50033;
+    color: #fff;
+    font-family: 'rb_bold';
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px 0px 10px 0px;
+  }
+
+/*---------------------------------------------------------------------------------------------------*/
+
+.cube {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) rotateY(0deg);
+  animation: rotate 15s infinite linear;
+}
+
+.face {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background-color: #000;
+  border: 2px solid #333;
+}
+
+.face img {
+  width: 100%;
+  height: 100%;
+}
+
+.front  { transform: rotateY(  0deg) translateZ(90px); }
+.back   { transform: rotateY(180deg) translateZ(90px); }
+.left   { transform: rotateY(-90deg) translateZ(90px); }
+.right  { transform: rotateY( 90deg) translateZ(90px); }
+.top    { transform: rotateX( 90deg) translateZ(90px); }
+.bottom { transform: rotateX(-90deg) translateZ(90px); }
+
+@keyframes rotate {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+
 
 
 /* -------------------------------------------------------------------------------------------------*/ 
