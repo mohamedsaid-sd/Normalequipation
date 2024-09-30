@@ -552,7 +552,7 @@ width: 100%;
     background-repeat:no-repeat;
     width: 100%;
     margin: -15px 0px 0px 0px;
-    padding: 0px 0px 30px 0px;
+    padding: 50px 0px 30px 0px;
   }
 
   #our_fleet .fleet_card{
@@ -609,6 +609,78 @@ width: 100%;
 
 /*---------------------------------------------------------------------------------------------------*/
 
+/****************************************** Section Our Fleet ***************************************/
+
+  #contact{
+    background-color: #123;
+    padding: 250px 50px 10px 50px;
+    background : url('../images/backgrounds/fleet.png');
+    background-size: cover;
+    font-family: 'rb_bold';
+    margin-top: -600px;
+  }
+
+  #contact .gold{
+    font-size: 70px;
+    color: gold;
+    font-weight: bold;
+     text-align: justify;
+  }
+
+  #contact .border{
+    height: 40px;
+    border: 2px solid gold; 
+    border-color: red;
+    border-radius: 15px;
+  }
+
+  #contact .pref{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+  }
+
+  #contact .trans{
+    background-color: #ffffff22;
+    padding: 3px 7px 3px 7px;
+    border-radius: 8px;
+    color: #eee;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 0px 10px 0px; 
+  }
+
+  #contact .trans img{
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+  }
+
+  #contact .trans a{
+    color: #fff;
+    margin: 5px;
+  }
+
+  #contact .r{
+    text-align: right;
+  }
+
+  #contact .fr{
+    float: right;
+  }
+
+  #contact .fl{
+    float: left;
+  }
+
+  #contact .c{
+    width: 100%;
+    position: relative;
+    top :360px;
+  }
+/*---------------------------------------------------------------------------------------------------*/
+
 .cube {
   position: relative;
   width: 180px;
@@ -646,7 +718,6 @@ width: 100%;
     transform: rotateX(360deg) rotateY(360deg);
   }
 }
-
 
 
 /* -------------------------------------------------------------------------------------------------*/ 

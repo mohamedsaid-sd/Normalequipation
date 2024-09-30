@@ -719,6 +719,78 @@
     </div>
   </section>
 
+  <section id="contact">
+    <img class="c" src="images/contacts/main.png"/> 
+    <div class="row">
+      <div class="col-lg-4"> <div class="gold"> EQUPATION </div> </div>
+      <div class="col-lg-4"> </div>
+      <div class="col-lg-4"> <div class="gold"> EQUPATION </div> </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="border">
+          as
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4">
+        <div class="pref">
+          <p> BE PART OF THE WORLD OF ECONOMY ,
+          AND SUBSCRIPE TO OUR MAIL SERVICE
+          TO RECIVE ALL EW UPDATES </p>
+        </div>
+        <div class="trans">
+          Folow us on : 
+          <span>
+          <img src="images/contacts/whatsapp.png"/>
+          <img src="images/contacts/facebook.png"/>
+          <img src="images/contacts/inestegram.png"/>
+          <img src="images/contacts/x.png"/>
+          </span>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+      </div>
+
+      <div class="col-lg-4">
+        <div class="trans r">
+          Khartoum - atbara - portsudan <img class="" src="images/contacts/whatsapp.png"/>
+        </div>
+        <div class="trans r">
+          info@equipation.sd  <img class="" src="images/contacts/whatsapp.png"/>
+        </div>
+        <div class="trans r">
+          00-2499-12322-447  <img class="" src="images/contacts/whatsapp.png"/>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+     <div class="col-lg-12">
+        <div class="trans" style="height: 55px;">
+          <div class="col-lg-">
+          <a class="fl" href="www.google.com"> <img class="arrow" src="images/welcome/arrow.png"> Home </a>
+          <a class="fl" href="#"> <img class="arrow" src="images/welcome/arrow.png"> Abou Us </a>
+          <a class="fl" href="#"> <img class="arrow" src="images/welcome/arrow.png"> Services </a>
+          <a class="fl" href="#"> <img class="arrow" src="images/welcome/arrow.png"> Work Fields </a>
+
+          <a class="fr" href="#"> <img class="arrow" src="images/welcome/arrow.png"> Contact Us </a>
+          <a class="fr" href="#"> <img class="arrow" src="images/welcome/arrow.png"> Our Fleet </a>
+          <a class="fr" href="#"> <img class="arrow" src="images/welcome/arrow.png"> Gallary </a>
+          <a class="fr" href="#"> <img class="arrow" src="images/welcome/arrow.png"> News </a>
+          </div>
+     </div>
+    </div>
+  </div>
+
+  </section>
+
 </body>
 <!-- Bootstrap JS and dependencies -->
 <script src="js/bootstrap.bundle.min.js"></script>
@@ -748,6 +820,36 @@ function counter(){
                 }
             });
 countTo = $this.attr('data-count');
+
+// Event listeners for nav links
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('mouseover', () => {
+            const bgUrl = link.getAttribute('data-bg');
+            if (bgUrl !== currentTexture) {
+                hoverTimeout = setTimeout(() => {
+                    setTexture(bgUrl);
+                    currentTexture = bgUrl;
+                }, 3000); // 3-second delay
+            }
+        });
+
+        link.addEventListener('mouseleave', () => {
+            clearTimeout(hoverTimeout); // Clear the timeout if mouse leaves before 3 seconds
+        });
+    });
+
+    // تغيير صورة خلفية القائمة عند الوقوف عليها بالماوس
+    const navbar = document.querySelector('.navba');
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('mouseover', () => {
+            const bgUrl = link.getAttribute('data-bg');
+            navbar.style.backgroundImage = `url('${bgUrl}')`;
+        });
+        link.addEventListener('mouseleave', () => {
+            navbar.style.backgroundImage = "url('images/nav/nav.png')";
+        });
+    });
+
 }
 </script>
 </html>
